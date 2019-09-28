@@ -1,0 +1,35 @@
+{
+  "name": "line-drawing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --progress --inline --watch --port 8081"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/copy-webpack-plugin": "^5.0.0",
+    "@types/node": "^12.7.8",
+    "@types/webgl2": "0.0.5",
+    "@types/webpack": "^4.1.4",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "adaptive-bezier-curve": "^1.0.3",
+    "array-pack-2d": "^1.0.0",
+    "gl-buffer": "^2.1.2",
+    "gl-mat4": "^1.2.0",
+    "gl-vao": "^1.3.0",
+    "glslify": "^7.0.0",
+    "polyline-normals": "^2.0.2"
+  }
+}
